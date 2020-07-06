@@ -1,0 +1,12 @@
+<!doctype html>
+
+<script>
+	
+	let ul = document.createElement('ul');
+	document.body.append(ul);
+	let data = document.cookie.split(';');
+	for (let i = 0; i<data.length; i++) { let li = document.createElement('li'); li.textContent = data[i]; ul.append(li); }
+
+</script>
+
+</html>
